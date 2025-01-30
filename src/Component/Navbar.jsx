@@ -70,7 +70,7 @@ const Navbar = () => {
       <div
         className={`md:hidden fixed top-0 right-0 h-full w-64 bg-gray-200 transform ${
           isMenuOpen ? "translate-x-0" : "translate-x-full"
-        } transition-transform duration-300 ease-in-out shadow-lg p-6`}
+        } transition-transform duration-300 ease-in-out shadow-lg p-6 z-50`} // Added z-50
       >
         {/* Close Button */}
         <div className="flex justify-end">
