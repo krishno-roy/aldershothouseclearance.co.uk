@@ -83,7 +83,7 @@ const Navbar = () => {
         <ul className="flex flex-col gap-6 mt-6 text-lg font-semibold">
           <li>
             <Link to="/" className="hover:text-gray-600" onClick={toggleMenu}>
-              Home
+              arif
             </Link>
           </li>
           <li>

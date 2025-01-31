@@ -7,11 +7,11 @@ const Home = () => {
   return (
     <div>
       {/* Hero Background Image */}
-      <div className="mt-5">
-        <img src={BgImage} alt="Man and Van Services" className="w-full" />
+      <div className="mt-5 clas">
+        <img src={BgImage} alt="Man and Van  Services" className="w-full" />
       </div>
 
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 clas">
         {/* Title */}
         <div className="my-6">
           <h1 className="text-3xl font-bold text-gray-800">

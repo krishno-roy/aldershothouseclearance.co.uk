@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import BgImage from "../assets/manandvan.png"; 
-
+import BgImage from "../assets/manandvan.png";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -26,7 +25,7 @@ const Contact = () => {
 
   return (
     <div>
-      <div className="relative h-40 sm:h-60 md:h-96 lg:h-50 opacity-30">
+      <div className="relative  h-40 sm:h-60 md:h-96 lg:h-50 opacity-30">
         <img
           src={BgImage}
           alt="Man and Van Services"
@@ -71,7 +70,7 @@ const Contact = () => {
             <div className="mb-6">
               <label
                 htmlFor="email"
-                className="block text-lg font-semibold text-gray-700 mb-2"
+                className="block text-lg  font-semibold text-gray-700 mb-2"
               >
                 Email
               </label>
